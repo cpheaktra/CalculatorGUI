@@ -91,6 +91,7 @@ if __name__ == "__main__":
 
     btn4 = Button(master, text=' 4 ', fg='black', bg='#fff', command=lambda: press(4), height=2, width=7)
     btn4.grid(row=3, column=0, pady=2)
+    
 
     btn5 = Button(master, text=' 5 ', fg='black', bg='#fff', command=lambda: press(5), height=2, width=7)
     btn5.grid(row=3, column=1, pady=2)
